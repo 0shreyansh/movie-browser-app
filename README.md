@@ -91,4 +91,5 @@ Find me on [GitHub](https://github.com/your-username) or open an issue in this r
 
 ---
 Live link = https://movie-browser-app-shreyansh.vercel.app/
+---
 Happy movie browsing! 🍿
