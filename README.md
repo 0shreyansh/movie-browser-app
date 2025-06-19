@@ -1,50 +1,94 @@
-# Welcome to your Expo app 👋
+# 🎬 Welcome to CinemaScope – Your Movie Browser App!
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Hey there! 👋 Thanks for checking out CinemaScope, a fun and easy-to-use app for discovering, searching, and saving your favorite movies. Whether you're a film buff or just looking for something to watch tonight, this app is for you!
 
-## Get started
+---
 
-1. Install dependencies
+## 🌟 What is CinemaScope?
+CinemaScope is a beautiful, feature-rich movie discovery app built with React Native and Expo. It lets you browse trending movies, search for your favorites, and keep track of what you love – all in a smooth, modern interface.
 
+---
+
+## 📸 Screenshots
+*Add your app screenshots here to show off your UI!*
+
+---
+
+## 🚀 Features
+- **Search for Movies:** Quickly find any movie by title.
+- **See What's Trending:** Instantly view trending and top-rated movies.
+- **Movie Details:** Tap any movie to see its poster, rating, year, genres, and a short overview.
+- **Save Favorites:** Tap the heart to save movies you love for easy access later.
+- **Offline Support:** Recently viewed movies are available even without internet.
+- **Dark & Light Mode:** The app looks great day or night.
+- **Smooth Animations & Haptics:** Enjoy a premium, interactive experience.
+
+---
+
+## 🛠️ Tech Stack (in plain English)
+- **React Native & Expo:** For building beautiful, cross-platform mobile apps.
+- **TypeScript:** For safer, more reliable code.
+- **TMDB API:** For up-to-date movie info.
+- **Expo Router:** For easy navigation.
+- **AsyncStorage:** For saving your favorites and offline data.
+- **Reanimated & Expo Image:** For smooth animations and fast image loading.
+
+---
+
+## 🏁 Getting Started (Step-by-Step)
+
+1. **Clone this repo:**
+   ```bash
+   git clone <your-repo-url>
+   cd MovieBrowserApp
+   ```
+2. **Install dependencies:**
    ```bash
    npm install
+   # or
+   yarn install
    ```
-
-2. Start the app
-
+3. **Get a TMDB API Key:**
+   - Sign up at [The Movie Database](https://www.themoviedb.org/settings/api)
+   - Copy your API key
+4. **Set up your environment:**
+   - Create a `.env` file in the root folder:
+     ```env
+     EXPO_PUBLIC_TMDB_API_KEY=your_tmdb_api_key_here
+     ```
+5. **Start the app:**
    ```bash
    npx expo start
    ```
+6. **Run on your device or simulator:**
+   - iOS: Press `i` in the terminal
+   - Android: Press `a`
+   - Or scan the QR code with the Expo Go app
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🤔 How Do I Use It?
+- **Browse:** Scroll through trending, top-rated, and recent movies.
+- **Search:** Use the search tab to find any movie.
+- **Details:** Tap a movie card to see more info.
+- **Favorites:** Tap the heart icon to save a movie. Find all your favorites in the Favorites tab.
+- **Switch Themes:** The app follows your device's dark/light mode automatically.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 💡 Want to Contribute?
+Pull requests are welcome! If you have ideas for new features or spot a bug, feel free to open an issue or submit a PR. Let's make CinemaScope even better together!
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 📄 License
+MIT – free to use, modify, and share.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🙋‍♂️ Questions or Feedback?
+Find me on [GitHub](https://github.com/your-username) or open an issue in this repo. I'd love to hear from you!
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Happy movie browsing! 🍿
