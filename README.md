@@ -90,5 +90,5 @@ MIT – free to use, modify, and share.
 Find me on [GitHub](https://github.com/your-username) or open an issue in this repo. I'd love to hear from you!
 
 ---
-
+Live link = https://movie-browser-app-shreyansh.vercel.app/
 Happy movie browsing! 🍿
